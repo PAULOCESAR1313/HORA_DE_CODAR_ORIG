@@ -51,6 +51,9 @@ while True:
     # while else para quando acabar as tentativas sem acerto!
     else:
         print(f"Você perdeu! O número secreto era {numero_secreto}")
+    # Pergunta se o jogador quer continua
+    jogar_novamente = input("Deseja jogar novamente? (s/n)").lower()
 
-
-    break
+    if jogar_novamente != "s":
+        print("Obrigado, até a proxima!")
+        break
