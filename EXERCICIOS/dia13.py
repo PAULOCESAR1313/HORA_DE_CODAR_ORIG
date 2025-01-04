@@ -37,6 +37,7 @@ print("Deu certo você adicionou mais duas linhas!")
 divisao = "-" * 50, "BLOCO_4", "-" * 50
 print(divisao)
 
+
 # CSV - significa, comma separeted values
 
 import csv
@@ -47,6 +48,7 @@ with open("contatos.csv", "w", newline= '') as arquivo_csv:
     escritor.writerow(["Paulo", "Programador", 47])# dados
     escritor.writerow(["Thayanne", "Catadora", 23])# dados
     escritor.writerow(["Joaquim", "Estudante", 5])# dados
+print("Criando arquivos separados por vigula, para abrir no Excel")
 
 divisao = "-" * 50, "BLOCO_4", "-" * 50
 print(divisao)
@@ -64,3 +66,5 @@ dados = {
 
 with open('dados.Json', 'w') as arquivo:
     json.dump(dados, arquivo, indent=4)
+
+print("Criando arquivos no formato JSON")
