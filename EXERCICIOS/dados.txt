@@ -1,1 +1,3 @@
-Deu tudo certo! Parabens!
+Deu tudo certo! Parabens!Você agora esta se saindo bem com essa linguagem.
+Python parece ser mais amigavel do que as outras linguagem!
+Logo estarei empregado e programendo!
