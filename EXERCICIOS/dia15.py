@@ -26,6 +26,15 @@ pessoa2.aniversario()
 # Criar uma classe com o nome retangulo, com os atributos de altura e largura, depois criar um método que mostra a área do retangulo.
 
 class retangulo:
-    def __init__(self, altura, largura): # Ultilisando o atribulto self, eu consigo atribuir valor ao objto.
+    def __init__(self, altura, largura,): # Ultilisando o atribulto self, eu consigo atribuir valor ao objto.
         self.altura = altura
         self.largura = largura
+        
+    
+    def area_do_retangulo(self):
+        area = self.altura * self.largura
+        print(f"Dada a altura: {self.altura}, e dado a largura: {self.largura}, desse retangulo, sua Área é: {area}")
+
+
+resultado = retangulo(4, 5)
+resultado.area_do_retangulo()
