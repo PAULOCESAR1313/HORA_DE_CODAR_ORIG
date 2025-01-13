@@ -89,8 +89,8 @@ def main():
             listar_tarefas(tarefas)
         elif opcao == '3':
             concluir_tarefa(tarefas)
-        elif opcao == '4':
-            excluir_tarefas(tarefas)
+        #elif opcao == '4':
+            #excluir_tarefas(tarefas)
         elif opcao == '5':
             print("Encerrando o programa!")
             break
