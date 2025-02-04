@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html
+{
+    background-color: #f0ebf8;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #333;
+}
+
+p, label
+{
+    color: #444;
+}
+
+input
+{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 4px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="file"]
+{
+    width: 400px;
+    text-align: center;
+}
+
+.reader
+{
+    height: 160px;
+    padding: 20px;
+    background-color: #673ab7;
+}
+
+.reader h3
+{
+    margin-top: 0;
+    color: #fff;
+}
+
+.form-conteiner
+{
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+    top: -67px;
+    background-color: #fdfdfd;
+}
