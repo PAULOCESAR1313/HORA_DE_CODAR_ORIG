@@ -11,6 +11,11 @@ body, html
     background-color: #f0ebf8;
 }
 
+.form-conteiner
+{
+    padding: 10px;
+}
+
 h1, h2, h3, h4, h5, h6
 {
     color: #333;
@@ -28,10 +33,16 @@ input
     padding: 10px 4px;
 }
 
-input[type="text"], input[type="number"], input[type="date"], input[type="file"]
+input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea
 {
+    margin: 10px 0;
     width: 400px;
-    text-align: center;
+   
+}
+
+textarea
+{
+    padding: 10px 5px;
 }
 
 .reader
@@ -54,4 +65,88 @@ input[type="text"], input[type="number"], input[type="date"], input[type="file"]
     position: relative;
     top: -67px;
     background-color: #fdfdfd;
+}
+
+.form-reader
+{
+    border-bottom: 1.8px solid #DFDFDF;
+    height: 45px;
+}
+
+.form-reader p
+{
+    width: 100px;
+    height: 45px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 45px;
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+}
+
+.form-body
+{
+    padding: 30px;
+}
+
+.form-title
+{
+    margin-bottom: 15px;
+}
+
+.form-body p
+{
+    margin-bottom: 20px;
+}
+
+.required-field
+{
+    color: #d80835;
+}
+
+.box-input
+{
+    margin-bottom: 35px;
+}
+
+.block
+{
+    display: block;
+}
+
+.optional-box
+{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list li
+{
+    list-style: none;
+}
+
+.box-input p
+{
+    margin-bottom: 15px;
+}
+
+.btn-submit
+{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #673ab7;
+    text-transform: uppercase;
+    color: #673ab7;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+.btn-submit:hover
+{
+    border: 2px solid transparent;
+    border-radius: 35px;
+    color: #fff;
+    background-color: #673ab7;
 }
