@@ -93,3 +93,163 @@ nav
     background-size: cover;
     background-position: center;
 }
+
+.main-banner h1, p
+{
+    text-align: center;
+    text-shadow: #000 3px 2px 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main-banner h1
+{
+    font-size: 54px;
+}
+
+.main-banner p
+{
+    font-size: 32px;
+}
+
+/* SERVICES */
+
+.services-conteiner
+{
+    padding: 5rem 0;
+}
+
+.services-conteiner ul
+{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-conteiner li
+{
+    flex: 1 1 200px;
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.fas
+{
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+.fa-shield-alt
+{
+    color: #2cc76a;
+}
+
+.fa-rocket
+{
+    color: #ef3f29;
+}
+
+.fa-comments
+{
+    color: #ef8f29;
+}
+
+.services-conteiner h3
+{
+    margin-bottom: 25px;
+}
+
+.services-conteiner p
+{
+    text-align: justify;
+    font-style: italic;
+    line-height: 24px;
+}
+
+/* prices and plans */
+
+.pricing-conteiner
+{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.pricing-conteiner h2
+{
+    font-size: 36px;
+}
+
+.pricing-conteiner p
+{
+    font-size: 20px;
+}
+
+.plans-conteiner
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plans 
+{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plans ul
+{
+    padding: 0;
+}
+
+.plans li
+{
+    height: 50px;
+    list-style: none;
+    line-height: 50px;
+    color: #333;
+    background-color: #e8e9ea;
+}
+
+.plans .price
+{
+    margin: 0 auto -50px;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    font-size: ;
+    font-size: 18px;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #2cc762;
+}
+
+.plans .plan-name
+{
+    padding: 50px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202b34;
+}
+
+.plans .plan-btn
+{
+    height: 75px;
+    font-size: 24px;
+    line-height: 75px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2cc762;
+}
+
+.plans .recommended
+{
+    background-color: #f45c5f;
+}
