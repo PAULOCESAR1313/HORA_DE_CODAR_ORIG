@@ -220,7 +220,6 @@ nav
     position: relative;
     width: 120px;
     height: 120px;
-    font-size: ;
     font-size: 18px;
     text-align: center;
     line-height: 120px;
@@ -252,4 +251,258 @@ nav
 .plans .recommended
 {
     background-color: #f45c5f;
+}
+
+/* SEARCH DOMAIN */
+
+.searchdomain-conteiner
+{
+    padding: 5rem 0;
+    text-align: center;
+    background-color: #34454e;
+}
+
+.searchdomain-conteiner h2
+{
+    margin-bottom: 15px;
+    font-size: 42px;
+    color: #fff;
+}
+
+.searchdomain-conteiner p
+{
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #d5d5d5;
+}
+
+.searchdomain-conteiner input
+{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchdomain-conteiner input[type="text"]
+{
+    width: 60%;
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.searchdomain-conteiner input[type="submit"]
+{
+    padding: 15px 30px;
+    font-size: 24px;
+    color: #d5d5d5;
+    cursor: pointer;
+    opacity: 0.6;
+    background-color: #2cc76a;
+    
+}
+
+.searchdomain-conteiner input[type="submit"]:hover
+{
+    border-radius: 10px;
+    color: #fff;
+    opacity: 0.9;
+    background-color: #bd79eb;
+}
+
+/* CONTACT CONTEINER */
+
+.contact-conteiner
+{
+    padding: 5rem 0 2rem 0;
+    text-align: center;
+
+}
+
+.contact-conteiner h2
+{
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+
+.contact-conteiner p
+{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.contact-conteiner input, textarea
+{
+    width: 200px;
+    margin: 0 10px 20px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-conteiner textarea
+{
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+    text-align: center;
+}
+
+.contact-conteiner input[type="submit"]
+{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #d5d5d5;
+    cursor: pointer;
+    opacity: 0.6;
+    background-color: #2cc76a;
+}
+
+.contact-conteiner input[type="submit"]:hover
+{
+    border-radius: 10px;
+    color: #fff;
+    opacity: 0.9;
+    background-color: #bd79eb;
+}
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    font-size: 80px;
+    text-align: center;
+    color: #bd79eb;
+    background-color: #232a31;
+}
+
+/* RESPONSIVIDADE */
+
+/* SMALL LAPTOPS a partir de 1100px */
+
+@media (max-width: 1100px)
+{
+    .plans-conteiner
+    {
+        width: 95%;
+    }
+
+    .plans
+    {
+        margin: 0 5px;
+    }
+}
+
+/* TABLET 900px */
+
+@media (max-width: 900px)
+{
+    .main-banner p 
+    {
+        padding: 0 6rem;
+        font-size: 32px;
+    }
+
+    .searchdomain-conteiner
+    {
+        padding: 2rem 4rem;
+    }
+}
+
+/* CELULAR 576px */
+
+@media (max-width: 576px)
+{
+    html, body
+    {
+        overflow-x: hidden;
+    }
+
+    .logo
+{
+    width: 70px;
+    margin-top: 10px;
+}
+
+    .navbar-itens li 
+    {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .main-banner p 
+    {
+        padding: 0 2rem;
+    }
+
+    .default-btn 
+    {
+        padding: 10px 15px;
+    }
+
+    .services-conteiner ul
+    {
+        flex-direction: column;
+    }
+
+    .plans-conteiner
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plans
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .plans ul
+    {
+        margin-bottom: 7px;
+    }
+
+    .searchdomain-conteiner h2
+    {
+        font-size: 28px;
+    }
+
+    .searchdomain-conteiner input[type="text"] 
+    {
+        width: 100%;
+        padding: 1.5rem 0;
+    }
+
+    .contact-conteiner
+    {
+        padding: 3rem 2rem;
+    }
+
+    .contact-conteiner input
+    {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 8px;
+    }
+
+    .contact-conteiner textarea
+    {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 8px
+    }
+
+    footer 
+    {
+        font-size: 50px;
+    }
 }
